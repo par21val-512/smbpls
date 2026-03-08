@@ -2,7 +2,7 @@
 Model definitions for SMBPLS.
 """
 
-from .smbpls_net import SMBPLSNet
+from .smbpls_model import SMBPLSNet
 
 __all__ = [
     "SMBPLSNet",
