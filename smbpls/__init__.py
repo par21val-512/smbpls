@@ -9,12 +9,15 @@ This package provides:
 __version__ = "0.1.0"
 
 # Core model
-from .models.smbpls_net import SMBPLSNet
+from .models.smbpls_model import SMBPLSNet
 
 # Data utilities
-from .data.simulate import generate_data
+from .data.simulate_sata import generate
+
+# Training
+from .train.train_smbpls import train_smbpls
 
 __all__ = [
     "SMBPLSNet",
-    "generate_data",
+    "generate",
 ]
